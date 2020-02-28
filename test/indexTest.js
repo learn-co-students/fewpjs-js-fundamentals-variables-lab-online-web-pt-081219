@@ -14,7 +14,7 @@ describe('index.js', function () {
     it('is defined as a const', function () {
       expect(js).to.match(/const companyName/, "Expected companyName to be a const");
     });
-  });
+  }); 
 
   describe('mostProfitableNeighborhood', function () {
     it('is declared as equal to Chelsea', function () {
